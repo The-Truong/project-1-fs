@@ -160,29 +160,31 @@
     <div class="container">
       <div class="inner-wrap">
         <div class="inner-left">
-          <div class="inner-head">
-            <h2 class="inner-title">Bộ Lọc</h2>
-            <i class="fa-solid fa-filter"></i>
-          </div>
-          <form action="" class="inner-form">
+          <div class="box-filter">
+            <div class="inner-head">
+              <div class="inner-title">
+                Bộ Lọc
+              </div>
+              <i class="fa-solid fa-filter"></i>
+            </div>
             <div class="inner-group">
-              <lable class="inner-label">
+              <label for="" class="inner-label">
                 Điểm đi
-              </lable>
+              </label>
               <select name="" id="">
+                <option value="">-- Chọn điểm đi --</option>
                 <option value="">Hà Nội</option>
-                <option value="">Bắc Ninh</option>
                 <option value="">Đà Nẵng</option>
                 <option value="">Nha Trang</option>
               </select>
             </div>
             <div class="inner-group">
-              <lable class="inner-label">
+              <label for="" class="inner-label">
                 Điểm đến
-              </lable>
+              </label>
               <select name="" id="">
                 <option value="">-- Chọn điểm đến --</option>
-                <option value="">Bắc Ninh</option>
+                <option value="">Hà Nội</option>
                 <option value="">Đà Nẵng</option>
                 <option value="">Nha Trang</option>
               </select>
@@ -195,26 +197,26 @@
             </div>
             <div class="inner-group">
               <label for="" class="inner-label">
-                Số Lượng Hành Khách
+                Điểm đến
               </label>
               <div class="inner-list">
                 <div class="inner-item">
-                  <label for="" class="inner-item-label">
+                  <label for="" class="inner-label-item">
                     Người lớn:
                   </label>
-                  <input type="number" value="0">
+                  <input type="number" name="" id="" value="0">
                 </div>
                 <div class="inner-item">
-                  <label for="" class="inner-item-label">
+                  <label for="" class="inner-label-item">
                     Trẻ em:
                   </label>
-                  <input type="number" value="0">
+                  <input type="number" name="" id="" value="0">
                 </div>
                 <div class="inner-item">
-                  <label for="" class="inner-item-label">
+                  <label for="" class="inner-label-item">
                     Em bé:
                   </label>
-                  <input type="number" value="0">
+                  <input type="number" name="" id="" value="0">
                 </div>
               </div>
             </div>
@@ -224,190 +226,106 @@
               </label>
               <select name="" id="">
                 <option value="">-- Chọn khoảng giá --</option>
-                <option value="">100.000.000đ</option>
-                <option value="">10.000.000đ</option>
-                <option value="">1.000.000đ</option>
+                <option value="">Dưới 10 triệu</option>
+                <option value="">Trên 10 triệu</option>
+                <option value="">1 tỷ</option>
               </select>
             </div>
-            <button class="box-button-1">
+            <button class="inner-button">
               Áp Dụng
             </button>
-          </form>
+          </div>
         </div>
         <div class="inner-right">
-          <h2 class="inner-title">
+          <h2 class="inner-title-main">
             Tour Nước Ngoài
           </h2>
           <div class="inner-desc">
-            Du lịch Châu Á: là châu lục lớn và đông dân nhất thế giới. Châu Á cũng có nhiều danh lam thắng cảnh đẹp tại
-            một số quốc gia như Hàn Quốc, Nhật Bản, Trung Quốc, Việt Nam,... và VK Travel là nhà tổ chức du lịch chuyên
-            nghiệp hàng đầu Châu Á, đã 5 lần liên tiếp nhận giải TTG Travel Awards. Hãy cùng 28.Travel du lịch Châu Á để
-            tận hưởng những dịch vụ tốt nhất.
+            Du lịch Châu Á: là châu lục lớn và đông dân nhất thế giới. Châu Á cũng có nhiều danh lam thắng cảnh đẹp tại một số quốc gia như Hàn Quốc, Nhật Bản, Trung Quốc, Việt Nam,... và VK Travel là nhà tổ chức du lịch chuyên nghiệp hàng đầu Châu Á, đã 5 lần liên tiếp nhận giải TTG Travel Awards. Hãy cùng 28.Travel du lịch Châu Á để tận hưởng những dịch vụ tốt nhất.
           </div>
-          <div class="inner-info">
+          <div class="inner-wrap-1">
             <div class="inner-sort">
-              <div class="inner-sort-title">
+              <div class="inner-label">
                 Sắp xếp :
               </div>
-              <ul class="inner-sort-list">
-                <li>
-                  Giá tăng dần
-                  <i class="fa-solid fa-square-caret-up"></i>
-                </li>
-                <li>
-                  Giá giảm dần
-                  <i class="fa-solid fa-square-caret-down"></i>
-                </li>
-                <li class="inner-active">
-                  Khuyến Mại Hot
-                  <i class="fa-solid fa-tag"></i>
-                </li>
-                <li>
-                  Xem Nhiều
-                  <i class="fa-solid fa-eye"></i>
-                </li>
-              </ul>
+              <a href="#" class="inner-button">
+                Giá tăng dần <i class="fa-solid fa-square-caret-up"></i>
+              </a>
+              <a href="#" class="inner-button">
+                Giá giảm dần <i class="fa-solid fa-square-caret-down"></i>
+              </a>
+              <a href="#" class="inner-button inner-active">
+                Khuyến Mại Hot <i class="fa-solid fa-tag"></i>
+              </a>
+              <a href="#" class="inner-button">
+                Xem Nhiều <i class="fa-solid fa-eye"></i>
+              </a>
             </div>
             <div class="inner-total">
-              Tất cả: <strong>101 Tour</strong>
+              Tất cả: <b>101 Tour</b>
+            </div>
+            <button class="inner-button-filter">
+              Bộ Lọc <i class="fa-solid fa-filter"></i>
+            </button>
+          </div>
+          <div class="inner-wrap-2">
+            <div class="box-product">
+              <a href="">
+                <div class="inner-image">
+                  <img src="assets/images/section-2-product.jpg" alt="">
+                </div>
+                <div class="inner-discount">
+                  <i class="fa-solid fa-bolt"></i>
+                  Giảm -30%
+                </div>
+                <div class="inner-info">
+                  <div class="inner-title">
+                    Tour 2024 Phú Quốc – Thiên Đường Đảo Ngọc (3N2D)
+                  </div>
+                  <div class="inner-price">
+                    <div class="inner-price-old">
+                      13.650.000<span>đ</span>
+                    </div>
+                    <div class="inner-price-new">
+                      12.590.000 <span>đ</span>
+                    </div>
+                  </div>
+                  <div class="inner-desc">
+                    <div class="inner-id">Mã Tour: <b>123456789</b></div>
+                    <div class="inner-day-start">Ngày Khởi Hành: <b>22/07/2024</b></div>
+                    <div class="inner-time">Thời Gian: <b>10 Ngày 9 Đêm</b></div>
+                  </div>
+                  <div class="inner-meta">
+                    <div class="inner-rating">
+                      <div class="inner-star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="inner-num">(5)</div>
+                    </div>
+                    <div class="inner-stock">
+                      <div class="inner-label">Số chỗ còn:</div>
+                      <div class="inner-num">10</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
-          <div class="inner-list-product">
-            <div class="box-product">
-              <a href="">
-                <div class="inner-image">
-                  <img src="assets/images/section-2-product.jpg" alt="">
-                </div>
-                <div class="inner-discount">
-                  <i class="fa-solid fa-bolt"></i>
-                  Giảm -30%
-                </div>
-                <div class="inner-info">
-                  <div class="inner-title">
-                    Tour 2024 Phú Quốc – Thiên Đường Đảo Ngọc (3N2D)
-                  </div>
-                  <div class="inner-price">
-                    <div class="inner-price-old">
-                      13.650.000<span>đ</span>
-                    </div>
-                    <div class="inner-price-new">
-                      12.590.000 <span>đ</span>
-                    </div>
-                  </div>
-                  <div class="inner-desc">
-                    <div class="inner-id">Mã Tour: <b>123456789</b></div>
-                    <div class="inner-day-start">Ngày Khởi Hành: <b>22/07/2024</b></div>
-                    <div class="inner-time">Thời Gian: <b>10 Ngày 9 Đêm</b></div>
-                  </div>
-                  <div class="inner-meta">
-                    <div class="inner-rating">
-                      <div class="inner-star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                      </div>
-                      <div class="inner-num">(5)</div>
-                    </div>
-                    <div class="inner-stock">
-                      <div class="inner-label">Số chỗ còn:</div>
-                      <div class="inner-num">10</div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="box-product">
-              <a href="">
-                <div class="inner-image">
-                  <img src="assets/images/section-2-product.jpg" alt="">
-                </div>
-                <div class="inner-discount">
-                  <i class="fa-solid fa-bolt"></i>
-                  Giảm -30%
-                </div>
-                <div class="inner-info">
-                  <div class="inner-title">
-                    Tour 2024 Phú Quốc – Thiên Đường Đảo Ngọc (3N2D)
-                  </div>
-                  <div class="inner-price">
-                    <div class="inner-price-old">
-                      13.650.000<span>đ</span>
-                    </div>
-                    <div class="inner-price-new">
-                      12.590.000 <span>đ</span>
-                    </div>
-                  </div>
-                  <div class="inner-desc">
-                    <div class="inner-id">Mã Tour: <b>123456789</b></div>
-                    <div class="inner-day-start">Ngày Khởi Hành: <b>22/07/2024</b></div>
-                    <div class="inner-time">Thời Gian: <b>10 Ngày 9 Đêm</b></div>
-                  </div>
-                  <div class="inner-meta">
-                    <div class="inner-rating">
-                      <div class="inner-star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                      </div>
-                      <div class="inner-num">(5)</div>
-                    </div>
-                    <div class="inner-stock">
-                      <div class="inner-label">Số chỗ còn:</div>
-                      <div class="inner-num">10</div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="box-product">
-              <a href="">
-                <div class="inner-image">
-                  <img src="assets/images/section-2-product.jpg" alt="">
-                </div>
-                <div class="inner-discount">
-                  <i class="fa-solid fa-bolt"></i>
-                  Giảm -30%
-                </div>
-                <div class="inner-info">
-                  <div class="inner-title">
-                    Tour 2024 Phú Quốc – Thiên Đường Đảo Ngọc (3N2D)
-                  </div>
-                  <div class="inner-price">
-                    <div class="inner-price-old">
-                      13.650.000<span>đ</span>
-                    </div>
-                    <div class="inner-price-new">
-                      12.590.000 <span>đ</span>
-                    </div>
-                  </div>
-                  <div class="inner-desc">
-                    <div class="inner-id">Mã Tour: <b>123456789</b></div>
-                    <div class="inner-day-start">Ngày Khởi Hành: <b>22/07/2024</b></div>
-                    <div class="inner-time">Thời Gian: <b>10 Ngày 9 Đêm</b></div>
-                  </div>
-                  <div class="inner-meta">
-                    <div class="inner-rating">
-                      <div class="inner-star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                      </div>
-                      <div class="inner-num">(5)</div>
-                    </div>
-                    <div class="inner-stock">
-                      <div class="inner-label">Số chỗ còn:</div>
-                      <div class="inner-num">10</div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
+          <div class="pagination">
+            <button>
+              <i class="fa-solid fa-angles-left"></i>
+            </button>
+            <button class="inner-active">1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>
+              <i class="fa-solid fa-angles-right"></i>
+            </button>
           </div>
         </div>
       </div>
